@@ -1,0 +1,10 @@
+# เพิกเฉย node_modules
+node_modules/
+
+# เพิกเฉยไฟล์ log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# เพิกเฉย env ไฟล์
+.env
