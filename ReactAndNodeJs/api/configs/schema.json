@@ -1,0 +1,15 @@
+{
+    "products": {
+        "id": "int",
+        "name": "string",
+        "description": "string",
+        "price": "int",
+        "discount": "int",
+        "date_added": "date",
+        "date_updated": "date",
+        "category": "string",
+        "stock": "int",
+        "image_url": "string",
+        "status": "string"
+    }
+}

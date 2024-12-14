@@ -1,11 +1,9 @@
 const ORM = require('../services/orm');
+const schme = require('../configs/schema')
 
 async function getList(req, res) {
-    const orm = new ORM();
-
-    let box = {
-        "xx":1
-    }
+    const orm = new ORM();    
+    // orm.createDB()
     res.json(box)    
 }
 
