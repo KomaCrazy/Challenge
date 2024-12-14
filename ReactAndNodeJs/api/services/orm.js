@@ -7,7 +7,9 @@ class ORM {
     }
 
     createDB(list){
+        
         console.table(list);
+
     }
 }
 
