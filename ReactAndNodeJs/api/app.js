@@ -9,13 +9,10 @@ app.use((req, res, next) => {
     next()
 })
 
-app.get('/', (req, res) => {
-  res.send('hello world')
-})
+app.get('/', (req, res) => res.send('hello world'))
+
+app.use('/product', productRoutes);
 
 
-app.get('/product', productRoutes);
 
-app.listen(cf_server.port,()=>{
-    console.log(`Server Running Port${cf_server.port}`)
-})
+app.listen(cf_server.port,console.log(`Server Running Port : ${cf_server.port}`))
